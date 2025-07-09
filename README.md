@@ -1,4 +1,4 @@
-<img width="416" alt="image" src="https://github.com/user-attachments/assets/59ed1995-1d5e-4853-bfb2-18855fb3828a" /><img width="416" alt="image" src="https://github.com/user-attachments/assets/7bae4406-24ff-4032-a786-11a5497b28b7" /># Chatting_System_0，一个类似于QQ的聊天系统
+# Chatting_System_0，一个类似于QQ的聊天系统
 ## 系统实现的功能
 ### 基本功能：
   - 新用户注册
