@@ -126,11 +126,11 @@
 - c3：由c3.c编译链接生成的可执行文件
 - md5.h：散列函数MD5算法的头文件
 ### 项目编译步骤
-- 服务器编译口令：gcc -g -Wall -o s3 s3.c -I /usr/include/mysql -L/usr/lib/mysql -lmysqlclient -lpthread
+- 服务器编译口令：```gcc -g -Wall -o s3 s3.c -I /usr/include/mysql -L/usr/lib/mysql -lmysqlclient -lpthread```
 		（具体要根据mysql相关文件的位置变化）
-- 服务器执行口令：./s3
-- 客户端编译口令：gcc -o c3 c3.c -lmysqlclient -lpthread
-- 客户端执行口令：./c3
+- 服务器执行口令： ```./s3```
+- 客户端编译口令： ```gcc -o c3 c3.c -lmysqlclient -lpthread```
+- 客户端执行口令： ```./c3```
 ## 项目演示步骤
 ### 1、建立服务器端数据库，调整s3代码中数据库用户信息的部分
 - 数据库格式：
